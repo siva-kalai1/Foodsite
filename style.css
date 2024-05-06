@@ -1,0 +1,700 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/background-image.png");
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+/* Top Navigation */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.topnav a:hover {
+      color:#6C425E;
+      text-decoration: underline;
+      transition: all 1s ease-in-out 0s;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    margin: 16px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    display: none;
+}
+
+.topnav {
+    display: flex;
+    margin: 0 24px;
+}
+
+.topnav a {
+    margin: 16px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.current  a {
+   display: flex;
+   color: #6C425E;
+   text-decoration: underline;
+}
+
+.social img {
+    width: 40px;
+    margin: 16px;
+}
+
+
+/* Hero Cover Section */
+
+.hero {
+    align-items: center;
+    max-width: 1000px;
+    padding: 32px;
+    display: flex;
+}
+
+.hero-txt {
+    width: 50%;
+}
+
+.hero-image  {
+    width: 50%;
+}
+ 
+.hero-image img {
+    width: 100%;
+} 
+  
+
+@keyframes icons {
+    0% {top:40px; bottom:0px;}
+    100% {top: 0px; bottom: 0px;}
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    position: relative;
+    animation-name: icons;
+    animation-duration: 1s;
+    
+}
+
+.numbers :hover {
+    color: #6C425E;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-decoration: underline;
+}
+
+
+.numbers img {
+    width: 50%;
+}
+
+.numbers h3 {
+    margin-top: 0px;
+}
+
+.numbers p {
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+.heroheading h1 {
+font-size: xx-large;
+}
+
+.heroheading h2 {
+    font-size: large;
+}
+
+.heroheading p {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.heroheading label {
+    color: #6C425E;
+    font-size: small;
+}
+
+
+/* Featured section */
+
+.featured-container {
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+.featured h4 {
+    text-align: center;
+}
+.featuredimage img{
+    width: 100%;
+    display: flex;
+    
+}
+
+
+/* Gallery card section 1 - latest recipe */
+
+.gallery img {
+  width: 300px;
+  height: 220px;
+}
+
+.gallery-container {
+    background-color: #a27e96;
+    padding: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    display: inline-block;
+    padding: 50px;
+    color: #000000;
+    text-align: left;
+    background-color: white;
+}
+.card label {
+    font-size: small;
+}
+.galleryviewmore {
+    justify-content: center;
+    padding: 24px;
+}
+.galleryviewmore label:hover {
+    text-decoration: underline;
+}
+
+.gallery label:hover {
+    color:#6C425E;
+    text-decoration: underline;
+}
+.gallery a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Gallery card section 2 - Best in Class RecipesBest in Class Recipes */
+
+.gallery2 img {
+    width: 300px;
+    height: 220px;
+  }
+  
+  .gallery-container2 {
+      background-color: #ffffff;
+      padding: 24px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 24px;
+  }
+  
+  .card2 {
+      width: 300px;
+      height: 400px;
+      margin: 10px;
+      display: inline-block;
+      padding: 50px;
+      color: #ffffff;
+      text-align: left;
+      background-color: #a27e96;
+  }
+  .card2 label {
+      font-size: small;
+  }
+
+  .gallery2 label:hover {
+    text-decoration: underline;
+}
+  .galleryviewmore2 {
+      justify-content: center;
+      padding: 24px;
+  }
+  .galleryviewmore2 label:hover {
+    text-decoration: underline;
+}
+
+
+
+/* About me section */
+
+.chickentitle2 hr {
+    width: 50px; 
+    border: 2px solid;
+    color: #6C425E;
+    justify-content: left;
+    margin-left: 0px;
+    margin-bottom: 48px;
+    position: relative;
+    animation-name: skewline;
+    animation-duration: 2s;
+}
+
+.ChickencurryContainer2 {
+    display: flex;
+    margin: 48px;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+    
+}
+
+.recipe-hero2 {
+    margin-left: 60px;
+}
+
+.chickentitle2 h1 {
+    transition: all 1s ease-in-out 0s;
+}
+.recipe-hero2 p{
+    font-weight: lighter;
+}
+
+
+/* Newsletter input field */
+
+.news {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.subscribe {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe-email {
+    display: flex;
+}
+
+.subscribe-email input[type=submit] {
+    background-color: #6C425E;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin-left: 12px;
+    border-color: #6C425E;
+}
+
+.subscribe-email input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+
+/* Follow on insta cover image */
+
+.followimage img{
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+}
+
+.footer-left {
+    display: flex;
+    align-items:center;
+
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.rights {
+    display: flex;
+   
+}
+
+.rights a {
+    margin: 16px;
+}
+
+.socialfooter {
+    justify-content: center;
+ 
+}
+.socialfooter img {
+    width: 40px;
+    margin: 16px;
+}
+
+
+
+
+/* Recipe page Starts - 2nd page */
+
+/* Top Navigation bar */
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.social2 img {
+    width: 40px;
+    margin: 16px;
+}
+
+
+/* Hero Cover */
+
+@keyframes skewline {
+0% {left:0px; right:0px;}
+50% {left: 200px; right: 0px;}
+100% {left: 0px; right: 0px;}
+}
+
+.chickentitle hr {
+    width: 50px; 
+    border: 2px solid;
+    color: #6C425E;
+    justify-content: left;
+    margin-left: 0px;
+    margin-bottom: 48px;
+    position: relative;
+    animation-name: skewline;
+    animation-duration: 2s;
+}
+
+
+.ChickencurryContainer {
+    display: flex;
+    margin: 48px;
+    align-items: center;
+    
+}
+.recipe-hero-image img {
+  width: 500px;
+  height: 500px;
+
+}
+.recipe-hero {
+  margin-left: 60px;
+}
+
+.chickentitle h1 {
+    transition: all 1s ease-in-out 0s;
+}
+
+
+/* Method */
+.para {
+    margin: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.methodcontainer {
+    display: flex;
+    margin: 24px;
+    margin-top: 48px;
+
+    
+}
+.method2 {
+    width: 60%;
+    margin-right: 48px;
+    
+}
+.method3 {
+    width: 40%;
+    background-color: #6C425E; 
+    color: white;
+    
+}
+.method3 ul {
+    list-style-position: inside;
+
+}
+.method3content {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.method3content ul {
+    padding-bottom: 12px;
+    margin-right: 24px;
+}
+
+
+/* Video */
+
+.watch {
+    margin-left: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.watch-heading {
+    margin-top: 48px;
+}
+.video video{
+    width: 60%;
+}
+
+
+
+
+/* Nutrition facts */
+
+.nutrition-heading {
+    margin: 24px;
+}
+
+.FactsContainer {
+  display: flex;
+  margin-top: 12px;
+  margin: 24px;
+  background-color: #6C425E;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 48px;
+}
+
+
+/* Form */
+
+.form {
+
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.form-heading {
+    margin-bottom: 24px;
+}
+
+.form-heading p {
+ font-size: small;
+}
+
+.form-content label {
+    color:rgb(0, 0, 0);
+}
+
+.form-content input {
+    color: #ffffff;
+    
+}
+
+.form-content input[type=submit] {
+    background-color: #6C425E;
+    border-color: #6C425E;
+    padding: 12px 20px;
+    margin-top: 12px;
+}
+
+.form-content input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 8px;
+  }
+
+.form-content textarea[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 8px;
+  }
+
+
+/* Follow image cover */
+
+.followimage2 img{
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+/* Breakpoints */
+/* Breakpoints for both pages start here*/
+
+@media screen and (max-width: 870px) {
+
+
+    .top-wrapper{
+        background-image: url(Images/background-image-mob.png);
+    }
+    
+    .menu {
+        display:flex;
+        background-color: #6C425E;
+    }  
+
+    .topnav {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+
+
+
+    .hero {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .hero-txt{
+         width: 100%;
+         align-items: center;
+    }
+    .heroheading {
+        margin: 0%;
+    }
+  
+
+    .ChickencurryContainer2 {
+        flex-wrap: wrap-reverse;
+        
+    }
+
+    .recipe-hero2 {
+        margin-bottom: 24px;
+        margin-left: 1px;
+    }
+
+    /* Breakpoints for recipe page*/
+
+    /* Top Nav*/
+    .social2 {
+        display: none;
+    }
+
+     /* hero cover*/
+    .ChickencurryContainer2 {
+        flex-wrap: wrap-reverse;
+    }
+    
+    .recipe-hero-image2 img{
+        width: 100%;
+   
+    }
+    .recipe-hero2 {
+        margin-bottom: 24px;
+        margin-left: 0px;
+    }
+
+     /* Method section */
+
+     .methodcontainer {
+        flex-wrap: wrap-reverse;
+     }
+
+     .method2 {
+        width: 100%;
+        margin: 0%;
+     }
+
+     .method3 {
+        width: 100%;
+     }
+
+
+    /* Video section */
+
+    .video {
+        margin-right: 24px;
+    }
+    .video video{
+        width: 100%;
+    }
+
+    /* Nutrition section */
+
+ 
+    .nutrition-heading {
+     margin: 24px;
+    }
+
+    .FactsContainer {
+     flex-wrap: wrap;
+     padding-bottom: 0%;
+    
+    }
+
+    .facts {
+     padding-bottom: 48px;
+     margin: 0%;
+     padding-right: 24px;
+     
+    }
+
+    .facts li {
+        padding-right: 48px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+
+.footer-left{
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+
+}
